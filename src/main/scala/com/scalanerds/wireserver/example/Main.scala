@@ -13,5 +13,5 @@ object Main extends App {
   // TLS enabled tcp server
   system.actorOf(SSLTcpServer.props(Sniffer.props))
   // Tcp server that works with plain and SSL connections
-  system.actorOf(DualTcpServer.props(Sniffer.props))
+//  system.actorOf(DualTcpServer.props(Sniffer.props))
 }
